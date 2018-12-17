@@ -1,0 +1,24 @@
+page-home {
+    .tabs-ios{
+        .tabbar {
+            background: #372d3a;
+            .tab-button[aria-selected=true] .tab-button-icon {
+                color: #e73124;
+            }
+            .tab-button[aria-selected=true] {
+                color: #e73124;
+            }
+            .tab-button-text{
+                font-size: 11px;
+            }
+
+            .tab-button {
+                color: #dadada;
+            }
+            .tab-button-icon {
+                color: #dadada;
+            }
+        }
+      
+    } 
+}

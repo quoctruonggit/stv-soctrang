@@ -1,0 +1,25 @@
+.header{
+    height: 45px;
+    .toolbar{
+        height: 45px;
+        .toolbar-content{
+            .toolbar-title{
+                color: #dadada;
+            }
+            
+        }
+        .back-button{
+            color: #dadada;
+        }
+    }
+    .toolbar-background{
+        background: #372d3a;
+    }
+}
+
+.content{
+    .scroll-content{
+        padding: 0 !important;
+        background: #29212b;    
+    }
+}

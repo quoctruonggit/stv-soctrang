@@ -1,0 +1,34 @@
+page-news {
+    .content{
+        .scroll-content{
+            padding: 0 !important;
+            .list{
+                margin: 0;
+                .item:last-child{
+                    border: none;
+                }
+                .item{
+                    background:  #29212b;
+                    .item-inner{
+                        .label{
+                            margin-right: 0;
+                            h2{
+                                white-space: normal;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                overflow: hidden;
+                                -webkit-box-orient: vertical;  
+                                color: #dadada;
+                            }
+                            p{
+                                span{
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+page-post-detail {
+    .content{
+        .scroll-content{
+            .detail-post{
+                .img-post{
+                    width: 100%;
+                }
+                .title-post{
+                    margin: 5px 10px;
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+                .date-views{
+                    margin: 0 10px;
+                    color: #dadada;
+                    span{
+                        float: right;
+                    }
+                }
+
+            }
+            .content-post{
+                margin: 10px;
+                span{
+                    color: #fff;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,34 @@
+page-video-hot {
+    .content{
+        .scroll-content{
+            background:  #29212b;
+            .row{
+                padding: 4px;
+                .col{
+                    padding: 4px;
+                    margin-bottom: 4px;
+                    img{
+                        width: 100%;    
+                        border-radius: 5px;
+                    }
+                    p{
+                        margin-bottom: 4px;
+                        margin-top: 2px;
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 400;
+                        white-space: normal;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        -webkit-box-orient: vertical;  
+                    }
+                    span{
+                        color: #dadada
+                    }
+                }
+            }
+        }
+        
+    }
+}
